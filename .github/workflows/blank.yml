@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "cinam" ]
+    branches: [ "ciTuanNT" ]
   # allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
