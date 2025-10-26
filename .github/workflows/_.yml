@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a multi-line script
+      - name: ssh execute remote to vm
         run: |
-          echo TODO ssh exec
-         
+          set -x
+          #TODO setup sshprivatekey
+          #TODO set auto accept ip fingerprint ie -o StrictHostKeyChecking=no     
+          ssh nam@34.124.143.147
