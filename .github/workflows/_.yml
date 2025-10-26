@@ -1,9 +1,8 @@
-
-name: CI
+name: cinam
 
 on:
   push:
-    branches: [ "cinam" ]
+    branches: [ 'cinam' ]
   # allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -14,6 +13,5 @@ jobs:
     steps:
       - name: Run a multi-line script
         run: |
-          echo 122
-          echo 333
-          echo 4444
+          echo TODO ssh exec
+          
