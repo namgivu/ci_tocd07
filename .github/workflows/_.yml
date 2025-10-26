@@ -1,4 +1,4 @@
-name: cinam
+name: cirunnam
 
 on:
   push:
@@ -14,12 +14,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo TODO ssh exec
-          
-  job2:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Run a multi-line script
-        run: |
-          echo TODO ssh exec
-          
+         
