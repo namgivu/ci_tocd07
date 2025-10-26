@@ -1,0 +1,25 @@
+name: cinam22
+
+on:
+  push:
+    branches: [ 'cinam' ]
+  # allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  job1_22:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a multi-line script
+        run: |
+          echo TODO ssh exec
+          
+  job2_22:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a multi-line script
+        run: |
+          echo TODO ssh exec
+          
